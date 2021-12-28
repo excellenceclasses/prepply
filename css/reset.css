@@ -1,0 +1,86 @@
+/* Minimal CSS Reset */
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+#header1 {
+    background-color: #085bcf;
+}
+
+#image1 {
+    background-repeat: no-repeat;
+    border: 1px solid #085bcf;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded border */
+    padding: 5px;
+    /* Some padding */
+    width: 500px;
+    display: flex;
+    background-color: #085bcf;
+    margin-top: 15px;
+    border-radius: 11px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+
+}
+
+#whatsapp {
+    background-color: #085bcf;
+    /* border-color: solid green; */
+    color: rgb(250, 250, 250);
+    border-width: 2px;
+    border-radius: 11px;
+    padding: 5px;
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+}
+
+#headimg {
+    box-shadow: 0 0 5px 0 rgb(0 0 0 / 50%);
+    border-radius: 8px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+.alert {
+    padding: 15px;
+    background-color: #4bb543;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
